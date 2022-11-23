@@ -63,6 +63,9 @@
   ```python
     name.replace("H", "A") #將字串H替換成字串A
   ```
+
+[TOP](#Python)
+
 </details>
 
 <details>
@@ -147,6 +150,8 @@
       age = input("請輸入年齡：")
       print(age) 
       ```
+
+[TOP](#Python)
     
 </details>
 
@@ -181,7 +186,8 @@ combine = ["Victor", 90, true]
     scores[:4]    #得100, 34, 60, 80
   ```
 
+[TOP](#Python)
+
 </details>
 
 
-[TOP](#Python)

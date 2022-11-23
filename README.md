@@ -16,7 +16,7 @@
 
 + 不需要；符號做結束。
   ```python
-  print("Hellow World)
+  print("Hellow World")
   ```
 
 + 不需要宣告變數型態，直接給值即可。

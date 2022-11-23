@@ -1,6 +1,8 @@
-# [Youtube: 4小時初學者Python教學]
+# [GrandmaCan: 4小時初學者Python教學]
 
-[Youtube: 4小時初學者Python教學]:https://www.youtube.com/watch?v=zdMUJJKFdsU
+[GrandmaCan: 4小時初學者Python教學]:https://www.youtube.com/watch?v=zdMUJJKFdsU
+
+
 
 ### Python
 ---
@@ -124,3 +126,38 @@
 
 ### 基本計算機
 ---
+
++ input()得到使用者的輸入值"字串"
+  ```python
+  name = input("請輸入名字：")
+  print(name) 
+  age = input("請輸入年齡：")
+  print(age) 
+  ```
+
++ int()將字串轉換成整數
+  ```python
+  int("100") #得100
+  ```
+
++ float()將字串轉換成浮點數
+  ```python
+  float("13.5") #得13.5
+  ```
+
+### 列表list
+---
+```python
+scores = [100, 34, 60, 80, 49]
+name = ["Victor", "Avrial", "Peter"]
+
+#可以儲存多個不同型的的值
+combine = ["Victor", 90, true]
+```
++ 取得指定位置的值
+  ```python
+    # 從index:1開始取值，取到index:3
+    scores[1:4]    #得34, 60, 80
+  ```
+
+

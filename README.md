@@ -3,7 +3,6 @@
 [GrandmaCan: 4小時初學者Python教學]:https://www.youtube.com/watch?v=zdMUJJKFdsU
 
 
-
 ### Python
 ---
 
@@ -25,7 +24,9 @@
   name = true
   ```
 
-### 字串 string
+<details>
+<summary>字串 string</summary>
+
 ---
 
 + 用"\n"進行換行
@@ -62,9 +63,13 @@
   ```python
     name.replace("H", "A") #將字串H替換成字串A
   ```
+</details>
 
-### 數字 number
+<details>
+<summary>數字 number</summary>
+
 ---
+
 + 四捨五入至個位數
   ```python
     round(8/5) #得2
@@ -108,6 +113,17 @@
     min(2, 4, 5, 7, 10) #得2
   ``` 
 
+
+ + int()將字串轉換成整數
+    ```python
+    int("100") #得100
+    ```
+
++ float()將字串轉換成浮點數
+  ```python
+  float("13.5") #得13.5
+  ```
+
 + **需要import math模組**
     + 無條件捨去小數點()
         ```python
@@ -123,30 +139,22 @@
         ```python
         sqrt(36) # 得6
         ```
+    
+    + input()得到使用者的輸入值"字串"
+      ```python
+      name = input("請輸入名字：")
+      print(name) 
+      age = input("請輸入年齡：")
+      print(age) 
+      ```
+    
+</details>
 
-### 基本計算機
+<details>
+<summary>列表 list</summary>
+
 ---
 
-+ input()得到使用者的輸入值"字串"
-  ```python
-  name = input("請輸入名字：")
-  print(name) 
-  age = input("請輸入年齡：")
-  print(age) 
-  ```
-
-+ int()將字串轉換成整數
-  ```python
-  int("100") #得100
-  ```
-
-+ float()將字串轉換成浮點數
-  ```python
-  float("13.5") #得13.5
-  ```
-
-### 列表list
----
 ```python
 scores = [100, 34, 60, 80, 49]
 name = ["Victor", "Avrial", "Peter"]
@@ -154,10 +162,26 @@ name = ["Victor", "Avrial", "Peter"]
 #可以儲存多個不同型的的值
 combine = ["Victor", 90, true]
 ```
+
 + 取得指定位置的值
   ```python
     # 從index:1開始取值，取到index:3
     scores[1:4]    #得34, 60, 80
   ```
 
++ 取得指定位置之後的所有值
+  ```python
+    # 從index:1開始取值
+    scores[1:]    #得34, 60, 80, 49
+  ```
 
++ 取得指定位置之前的所有值
+  ```python
+    # 從index:4開始取前面的值
+    scores[:4]    #得100, 34, 60, 80
+  ```
+
+</details>
+
+
+[TOP](#top)

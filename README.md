@@ -2,6 +2,10 @@
 
 [GrandmaCan: 4小時初學者Python教學]:https://www.youtube.com/watch?v=zdMUJJKFdsU
 
+[>> Python語法大全]
+
+[>> Python語法大全]:https://www.runoob.com/python/python-tutorial.html
+
 ### Python
 ---
 

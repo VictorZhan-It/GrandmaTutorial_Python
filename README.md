@@ -2,7 +2,6 @@
 
 [GrandmaCan: 4小時初學者Python教學]:https://www.youtube.com/watch?v=zdMUJJKFdsU
 
-
 ### Python
 ---
 
@@ -23,6 +22,12 @@
   name = 100
   name = true
   ```
+
+
+[字串 string]
+
+[字串 string]:https://github.com/VictorZhan-It/GrandmaTutorial_Python/blob/master/string.md
+
 
 <details>
 <summary>字串 string</summary>

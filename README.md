@@ -16,6 +16,7 @@
 - [檔案讀寫](#檔案讀寫)
 - [模組 Module](#模組-module)
 - [類別Class與物件Object](#類別class與物件object)
+- [範例：問答程式](#範例問答程式)
 - [其它](#其它)
 
 
@@ -220,6 +221,8 @@ def GetRandMultiple(num):
 import tool        # 引入tool.py模組
 import math as mh  # 引入math.py模組並改名為mh
 
+from tool import LogMsg    #從tool.py中只引入LogMsg
+
 tool.LogMsg("Hello World")
 
 value = mh.GetRandMultiple(10)
@@ -246,7 +249,7 @@ pip install {模組名稱}
 ## [類別Class與物件Object](https://youtu.be/zdMUJJKFdsU?t=12894)
 
 ```python
-#類別
+# main.py
 class Character:
     def __init__(self, name, health, mana, isNPC)
         self.name = name
@@ -254,13 +257,82 @@ class Character:
         self.mana = mana
         self.isNPC = isNPC
 
+    def Walk(self):
+        ...
+    
+    def Jump(self, jumpPower):
+        ...
+
 #實例化
 player = Character("Victor", 150, 60, false)
 print(player.name)    #得到 Victor
 
 npc = Character("Village", 30, 5, true)
 print(npc.name)    #得到 Village
+
+npc.Walk()
+npc.Jump(10)
 ```
+
+```python
+# 類別 Human繼承 Character類別
+from main import Character
+
+class Human(Character):
+    def __init__(self, name, health, mana, isNPC, gender)
+        self.name = name
+        self.health = health
+        self.mana = mana
+        self.isNPC = isNPC
+        self.gender = gender
+
+npc2 = Human("Peter", 50, 10, false, "male")
+npc2.Walk()
+npc2.Jump(30)
+```
+
+[<< Top](#大綱)
+
+<br/>
+
+## 範例：問答程式
+
+```python
+# question.py
+class Question:
+    def __init__(self, description, answer):
+        self.description = description
+        self.answer = answer
+```
+
+```python
+# main.py
+from question import Question
+
+list = [
+    "1+1=?\n(a) 2\n(b) 3\n(c) 4\n\n",
+    "一公尺等於幾公分?\n(a) 10\n(b) 100\n(c) 100\n\n",
+    "請問香蕉是什麼顏色?\n(a) 黑\n(b) 黃\n(c) 白\n\n"
+]
+
+questions = [
+    Question(list[0], "c"),     
+    Question(list[1], "b"),     
+    Question(list[2], "b")
+]
+
+def run_test(questions):
+    score = 0
+    for question in questions:
+        answer = input(question.description)
+        if answer == question.anwser :
+            score++
+    print("Score: " + str(score) + "pts / 共" + str(len(questions)) + "題")
+
+run_test(questions)
+```
+
+
 
 [<< Top](#大綱)
 

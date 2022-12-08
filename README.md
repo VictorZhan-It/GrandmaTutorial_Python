@@ -53,7 +53,7 @@
   print(age) 
   ```
 
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>
 
@@ -71,7 +71,7 @@ print(scores[0])    #得90
 
 len(scores)    #取得長度 = 4
 ```
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>
 
@@ -88,7 +88,7 @@ dictionary["香蕉"] #得Banana
 
 numDict[2] #得Cat
 ```
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>
 
@@ -120,7 +120,7 @@ for row in list:
 #印出 0~9
 ```
 
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>
 
@@ -195,7 +195,7 @@ with open( "路徑", mode = "開啟模式", encoding="utf-8") as file:
     file.close()
     ```
 
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>
 
@@ -242,7 +242,7 @@ pip install {模組名稱}
 
 [Python內建模組](https://docs.python.org/3/py-modindex.html)
 
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>
 
@@ -291,7 +291,7 @@ npc2.Walk()
 npc2.Jump(30)
 ```
 
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>
 
@@ -334,7 +334,7 @@ run_test(questions)
 
 
 
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>
 
@@ -391,6 +391,6 @@ while value < 10:
     value += 1
 ```
 
-[<< Top](#大綱)
+[<< Top](#)
 
 <br/>

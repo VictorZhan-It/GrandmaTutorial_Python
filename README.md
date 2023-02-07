@@ -66,7 +66,7 @@
 + 取值一樣用中括號 [ x ]
   
 ```python
-scores = (90, 80, 70, 60)
+scores = (90, 80, 70, 60)
 print(scores[0])    #得90
 
 len(scores)    #取得長度 = 4
@@ -95,17 +95,28 @@ numDict[2] #得Cat
 ### for 迴圈 (for與foreach結合為for迴圈)
 
 ```python
+# 結合字串
 for letter in "Hello World":
     print(letter)    #得每一個string
 
+# 結合陣列
 for num in [1, 2, 3, 4]
     print(num)    #得1到4
 
+# 結合range
 for num in range(4)    
     print(num)    #得1到4
 
 for num in range(2, 7)    
     print(num)    #得2到7
+
+# 結合tuple
+for num in (1,2,3,4,5)
+    print(num)    #得1到5
+
+# 結合tuple
+for num in (1,2,3,4,5)
+    print(num)    #得1到5
 
 #二維陣列
 list = [
@@ -119,6 +130,10 @@ for row in list:
         print (col)
 #印出 0~9
 ```
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73773024/217127424-bcc6c33c-e572-4c60-a0de-da4fe105a60a.png" witdh="85%"/>
+</div>
 
 [<< Top](#)
 
@@ -144,7 +159,7 @@ with open( "路徑", mode = "開啟模式", encoding="utf-8") as file:
 ```
 
 
-+ 路徑：相對 / 絕對路徑 `斜線"\\"需改為"/" `
++ 路徑：相對 或 絕對路徑 `路徑斜線"\"需改為"/" `
 + mode
   + r：讀取
   
@@ -369,9 +384,7 @@ def MyFunction(name, value):
 msg = MyFunction("Victor", 28)    #呼叫函式
 ```
 
-[>> if 判斷句]
-
-[>> if 判斷句]:https://github.com/VictorZhan-It/GrandmaTutorial_Python/blob/master/if_statements.md\
+[>> if 判斷句](#for-迴圈-for與foreach結合為for迴圈)
 
 ```python
 if value > 0:

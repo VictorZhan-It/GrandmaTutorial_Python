@@ -6,7 +6,7 @@
     print("Hello\n world")
   ```
 
-+ 用"印出雙引號
++ 用"(跳脫字元)印出雙引號
   ```python
     print("\"Hello\" world")
   ```
@@ -33,7 +33,7 @@
 
 + 替換指定字串
   ```python
-    name.replace("H", "A") #將字串H替換成字串A
+    name = name.replace("H", "A") #將字串H替換成字串A
   ```
 
 [<< Back to ReadMe.md]

@@ -6,11 +6,11 @@ number = 10
 
 if number == 0:
     return "Zero"
-elif number >20 and number < 100
+elif number >20 and number < 100":
     return "Large Number"
-elif number != 0 or not(number < 3)
+elif number != 0 or not(number < 3):
     return "Less Number"
-else
+else:
     return "Less than 5"
 ```
   
